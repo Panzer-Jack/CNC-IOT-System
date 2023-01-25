@@ -1,0 +1,116 @@
+/* 通用样式 */
+
+body {
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(../image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    /* height: 1000px; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 置顶导航 */
+.header {
+    height: 52px;
+    line-height: 52px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header .content {
+    color: lightgray;
+}
+
+.header h1 {
+    float: left;
+    margin-left: 50px;
+    font-family: 华文新魏;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+
+.header h1:hover {
+    color: white;
+}
+
+.header li {
+    float: left;
+    margin-left: 30px;
+}
+
+.header a {
+    color: lightgray;
+}
+
+.header a:hover {
+    color: white;
+}
+
+.header a .line {
+    display: block;
+    margin-top: -8px;
+    width: 0px;
+    height: 4px;
+    background-color: #49b1f5;
+    transition: all 0.5s;
+}
+
+.header a:hover .line {
+    width: 32px;
+}
+
+.header .middle {
+    float: left;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.header .middle input {
+    float: left;
+    margin-top: 12px;
+    margin-left: 30px;
+    padding-left: 10px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.header .middle input::placeholder {
+    padding-left: 8px;
+    color: gray;
+}
+
+.header .middle li button {
+    margin-top: 3px;
+    margin-left: -22px;
+    height: 46px;
+    width: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    background: url(../image/search.png);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: all 1s;
+}
+
+.header .middle li button:hover {
+    transform:rotate(720deg);
+
+    box-shadow: 0 0 10px rgb(255,255,255) inset,0 0 30px rgb(255,255,255);
+}
+
+.header .right {
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+}

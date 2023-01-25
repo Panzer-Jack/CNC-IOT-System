@@ -1,0 +1,77 @@
+/* 首页 */
+
+
+/* 登录 */
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    border: 3px solid rgba(46, 120, 240, 0.833);
+    box-shadow: 0 0 30px rgba(134, 175, 242, 0.833);
+    border-radius: 15%;
+}
+
+.login .title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 华文新魏;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.888);
+}
+
+.login input {
+    margin-top: 50px;
+    padding-left: 80px;
+    height: 40px;
+    width: 370px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login .password,
+.login .account {
+    position: relative;
+}
+
+.login p{
+    position: absolute;
+    top: 56px;
+    left: 228px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.login button {
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 0 8px;
+    border: 0;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgba(2, 204, 255, 0.2);
+    border: 3px solid rgba(46, 120, 240, 0.4);
+    color: white;
+
+    border-radius: 20%;
+
+    cursor: pointer;
+}
+
+.login button:hover {
+    box-shadow: 0 0 30px rgba(134, 175, 242, 0.833);
+}
+
+.login .loginB {
+    width: 100px;
+    margin-left: -1px;
+}
