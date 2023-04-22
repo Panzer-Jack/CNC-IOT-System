@@ -1,7 +1,7 @@
 # CNC-IOT-System
 
 包含:
-  1. 一个IOT Web 平台。
+  1. 一个 IOT Web 平台。
   2. 一个基于QT制作直连CNC的上位机客户端。
   
 ·（ 新版本上线 闭源了 ） <br>
