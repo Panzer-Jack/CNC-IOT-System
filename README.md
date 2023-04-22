@@ -1,8 +1,8 @@
-# 3DPrinter-IoT-platform
-3D printer IoT platform （ Flask ）| 3D 打印机远程管理平台
+# CNC-IOT-System
 
 包含:
-  1.服务端由网站进行操控。
-  2.客户端需要在3D打印机上位机上安装客户端软件。
+  1.一个IOT Web 平台。
+  2.一个基于QT制作直连CNC的上位机客户端。
   
-and 还在开发中。。。 
+（ 新版本上线 闭源了 ）
+（ 项目地址： http://cnc-iot-system.panzer-jack.cn/ ）
