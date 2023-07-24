@@ -1,4 +1,19 @@
-**项目名称**：数云控 - 一种用于数控设备的泛用性云监控IOT平台
+
+<div align="center">
+
+<p align="center">
+    <img src="https://github.com/Panzer-Jack/CNC-IOT-System/assets/81006731/8947a41f-e427-4c19-adb4-45f411aa9700" alt="" width="300px">
+</p>
+
+# 数云控 - 一种用于数控设备的泛用性云监控IOT平台
+    
+_✨ 基于 [PyQT5]() 以及 [Vue3]() + [Flask]()  实现 ✨_  
+    
+DCC ---- a versatile cloud monitoring IOT platform for CNC equipment
+    
+</div>  
+
+（由于上线了，核心代码闭源了）
 
 **核心技术栈**：Vue3、Flask、PyQT5、MySQL、Redis、Axios、Vuex、Element-Plus、less、WebSocket、JWT、Flask-restful、Nginx等
 
